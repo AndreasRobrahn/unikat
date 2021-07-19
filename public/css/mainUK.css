@@ -1,7 +1,8 @@
 body{
-  font-family: 'Merienda One';
+  font-family: 'Uchen', serif !important;
   font-size: 1.3em;
-  overflow:initial !important;
+
+  overflow-y:hidden !important;
 }
 label.hamburg {
     display: flex;

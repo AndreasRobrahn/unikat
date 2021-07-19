@@ -30,4 +30,7 @@ Route::get('/datasecurity', function(){
 Route::get('/joboffers', function(){
   return view('joboffers');
 })->name('joboffers');
+Route::get('/personal', function(){
+  return view('ourWorkforce');
+})->name('ourWorkforce');
 Route::get('/cookiesAccept', 'App\Http\Controllers\NotificationsController@setCookies');

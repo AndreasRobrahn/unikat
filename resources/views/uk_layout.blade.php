@@ -6,7 +6,6 @@
     <meta name="csrf-token" content="{{csrf_token()}}">
     <!-- <link href="bootstrap-social-gh-pages/bootstrap-social.css" rel="stylesheet"> -->
     <link rel="shortcut icon" type="image/ico" href="{{asset('images/favicon.ico')}}"/>
-
     <link href="{{asset('css/bootstrap-5.0.1-dist/css/bootstrap.min.css')}}" rel="stylesheet">
 
     <!-- <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="{{asset('js/slick-1.8.1/slick/slick.css')}}"/> -->
@@ -145,9 +144,13 @@
           <div class="col-12 " id="sidemenu1" style="">
             <hr>
             <div class="w-100 d-flex p-1 linkitem">
-              <a href="{{route('unikataboutus')}}">
-                <p class="hoveritem">Über uns</p>
+              <a href="{{route('unikat')}}">
+                <span class="material-icons" style="font-size: 2.5em;">
+                  home
+                </span>
+
               </a>
+
             </div>
             <hr>
             <div class="w-100 d-flex linkitem" >
@@ -156,7 +159,11 @@
                   <p class="hoveritem">Unsere Leistungen</p>
                 </div>
                 <div class="dropdownright" style=" display: none;position: absolute; margin-left: 9em;">
-                  <p class="hoveritem">Unsere Fachkrafte</p>
+                  <a href="{{route('ourWorkforce')}}">
+                  <p class="hoveritem">
+                      Unsere Fachkrafte
+                    </p>
+                  </a>
                   <a href="{{route('joboffers')}}"> <p class="hoveritem" >Stellen- <br>angebote</p></a>
                   <a href="{{route('unikatSpeciality')}}"><p class="hoveritem">Kompe- <br>tenzen</p></a>
                 </div>
@@ -165,7 +172,9 @@
             </div>
             <hr>
             <div class="w-100 d-flex linkitem">
-              <p class="hoveritem">Zertifikate</p>
+              <a href="{{route('unikataboutus')}}">
+                <p class="hoveritem">Über uns</p>
+              </a>
             </div>
             <hr>
             <div class="w-100 d-flex linkitem">
@@ -175,10 +184,19 @@
           </div>
         </div>
         <div class="row m-0 ukColor1 text-white textsizeu2 hiddenonmobile align-items-center" style="min-height: 20vh;max-height: 45vh;">
+                <div class="col-1 offset-1 mb-1 center_items linkitem">
+                  <a href="{{route('unikat')}}">
+                    <span class="material-icons" style="font-size: 2.5em;">
+                      home
+                    </span>
+
+                  </a>
+                </div>
                 <div class="col-2 center_items linkitem">
                   <a href="{{route('unikataboutus')}}">
                     <p class="hoveritem">Über uns</p>
                   </a>
+
                 </div>
                 <div class="col-2 center_items linkitem" style="position: relative;">
                   <div class="" style="display: block; position: relative;">
@@ -187,7 +205,9 @@
                   </div>
                   <div class="hoverdropdown ukColor1" id="">
                     <div class="dropdownitem linkitem">
-                      <p class="hoveritem">Unsere Fachkrafte</p>
+                      <a href="{{route('ourWorkforce')}}">
+                        <p class="hoveritem">Unsere Fachkrafte</p>
+                      </a>
                     </div>
                     <hr>
                     <div class="dropdownitem linkitem">
@@ -201,15 +221,12 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-2 center_items linkitem">
-                  <p class="hoveritem">Zertifikate</p>
 
-                </div>
-                <div class="col-1 center_items linkitem">
+                <div class="col-2 center_items linkitem">
                   <p class="hoveritem" onclick="toggleContactModal()">Kontakt</p>
 
                 </div>
-                <div class="col-3 offset-2 center_items linkitem">
+                <div class="col-3 offset-1 center_items linkitem">
                   <div class="d-flex h-100">
                     <a href="{{route('unikat')}}">
                       <img src="{{asset('images/unikat_logo_without_text_grey-removebg-preview.png')}}" alt="firmenlogo_unikat" class="unikat_logo">

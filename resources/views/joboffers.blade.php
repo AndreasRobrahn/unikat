@@ -8,7 +8,7 @@
         <h1 class="textsizeu3 m-2">Stellenangebote</h1>
     </div>
     <div class="row m-0">
-      <p class="textsizeu2">Du bist auf der Suche nach einem neuen Job? - Dann bist Du bei UNIKAT GmbH genau richtig. Wir suchen Lagermitarbeiter und Staplerfahrer (m/w/d) in NRW bewirb Dich jetzt und sichere dir deinen neuen neuen Job.
+      <p class="textsizeu2">Du bist auf der Suche nach einem neuen Job? - Dann bist Du bei UNIKAT GmbH genau richtig. Wir suchen Lagermitarbeiter und Staplerfahrer (m/w/d) in NRW. Bewerbe Dich jetzt und sichere dir deinen neuen Job.
       <br>Hier findest Du alle wichtigen Informationen:</p>
     </div>
     <div class="row">

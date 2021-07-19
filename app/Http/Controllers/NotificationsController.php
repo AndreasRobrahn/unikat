@@ -30,7 +30,7 @@ class NotificationsController extends Controller
       $customer = 1;
 
         Mail::send('mails.notification', $data, function($message) use($data){
-           $message->to('info@tka-software-systems.de', 'Sie haben eine Anfrage erhalten')
+           $message->to('info@unikat-deutschland.de', 'Sie haben eine Anfrage erhalten')
            ->subject('Anfrage');
            $message->from('kontakformular@unikat-deutschland.de','Kontaktformular');
         });

@@ -2,6 +2,7 @@ body{
   font-family: 'Uchen', serif !important;
   font-size: 1.3em;
   overflow-x:hidden !important;
+  width:100%;
   /* overflow-y:hidden !important; */
 }
 
@@ -342,6 +343,10 @@ a{
 
 @media only screen and (max-width: 415px){
 
+  .unikat_logo
+  {
+    max-width: 100%;
+  }
   .notonsmalldv
   {
     display: flex;

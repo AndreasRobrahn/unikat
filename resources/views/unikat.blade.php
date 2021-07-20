@@ -76,7 +76,7 @@
     <div class="row m-0 ukColor1 text-white contentbreakw100 center_items">
       <div class="col-sm-5 m-2 p-1 order-sm-last order-md-first">
         <div class="row m-2 border-bottom" >
-          <h4 class="headline1">Zusatzliche Informationen</h4>
+          <h4 class="headline1">Zusätzliche Informationen</h4>
         </div>
         <div class="row m-2 justify-content-center ">
           <p>Adresse: Sonnenscheineck 16, 44278 Dortmund</p>
@@ -95,7 +95,7 @@
         </div>
       </div>
       <div class="col-sm-5 p-0 order-sm-first order-md-last">
-        
+
         <div class="mapouter" style="height: 350px; width: 100%;padding: 5px;">
           <div class="gmap_canvas p-0 center_items">
             <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=Sonnenscheineck%2016,%2044287%20Dortmund&t=&z=13&ie=UTF8&iwloc=&output=embed" style="width: 90%;height: 350px;"></iframe><br>

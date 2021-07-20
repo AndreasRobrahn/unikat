@@ -30,12 +30,6 @@
     <!-- Styles -->
     <style media="screen">
 
-    body{
-      font-family: 'Miller Text', serif;
-      font-size: 1.3em;
-      width: 100%;
-    }
-
     .mapouter{
       position:relative;
       text-align:right;
@@ -124,7 +118,7 @@
     </style>
     <body>
 
-      <div class="container-fluid p-0 bg-light" style="width: 100%; overflow-x:hidden;">
+      <div class="container-fluid p-0 bg-light" style="width: 100%;">
         <div class="row m-0 ukColor1" id='stickynavmob'>
           <div class="col-6 d-flex justify-content-center align-items-center">
             <div class="navbar-wrapper">

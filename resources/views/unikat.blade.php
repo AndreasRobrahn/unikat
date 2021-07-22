@@ -1,35 +1,40 @@
 @extends('uk_layout')
 
+@section('title')
+<title>Unikat, Arbeitsvermittlung & Personaldienstleistungen in Dortmund</title>
+@endsection
+
 @section('content')
 
-<div class="row m-0 justify-content-center contentbreak" style="">
-  <div class="col-sm-9 p-1">
+<div class="row m-0 justify-content-center " style="">
+  <div class="col-sm-9 p-1 contentbreak">
     <h1 class="textsizeu3 p-2 hiddenonmobile">Herzlich Willkommen bei Unikat GmbH
 
       </h1>
       <h1 class="mobileHeading textsizeu3 mt-4">Herzlich Willkommen bei der Unikat GmbH</h1>
+
       <h2 class="mobileHeading textsizeu1 mt-4">Arbeitsvermittlung & Personaldienstleistungen</h2>
 
-      <h2 class="textsizeu1 p-2 "> </h2>
     <p class="textsizeu2 m-2">
-      Wir haben uns auf die Arbeitnehmerüberlassung von Fachkräften aus der Metallbranche & Lagerlogistik spezialisiert.
-      Von unserem Firmensitz in Dortmund aus, vermitteln wir Ihnen bundesweit genau das Personal, welches Ihr Unternehmen benötigt. Profitieren sie von unseren längjahrigen Erfahrungen und Kontakten im Bereich der Personaldienstleistungen.
+      Die Unikat GmbH ist auf die Arbeitnehmerüberlassung von Fachkräften spezialisiert. Suchen Sie nach qualifizierten Personal aus der Metallbranche oder im Bereich der Lagerlogistik?
+      Von unserem Firmensitz in Dortmund helfen wir Ihnen in der Arbeitsvermittlung dem Abschluss Ihrer Projekt.  Profitieren sie von unseren längjahrigen Erfahrungen und Kontakten im Bereich der Personaldienstleistungen.
+      Wir sehen uns sowohl als verlässlichen Partner als auch als nachhaltiger Arbeitgeber. Denn wir wissen, dass wir nur durch unsere Mitarbeiter unseren Erfolg erreichen können.
     </p>
   </div>
 
 </div>
-<div class="row m-0 justify-content-center contentbreak">
-  <div class="col-sm-9 p-1">
-      <h2 class="p-2 textsizeu1">Social Media</h2>
-    <p><a class="fa fa-facebook socmedbutton" href="#"></a>  <a class="fa fa-instagram socmedbutton" href="#"></a></p>
+<div class="row m-0 justify-content-center ">
+  <div class="col-sm-9 p-1 contentbreak">
+      <h3 class="p-2 textsizeu1">Social Media</h3>
+    <p><a class="fa fa-facebook socmedbutton" href="https://www.facebook.com/Unikat-110609097951924/"></a>  <a class="fa fa-instagram socmedbutton" href="https://www.instagram.com/unikat_gmbh"></a></p>
   </div>
 </div>
   <div class="row m-0 justify-content-center text-white"  style="height: 60vh; overflow: hidden;">
-    <div class="imageoverlay p-0">
+    <div class="imageoverlay p-0 h-100">
       <img src="{{asset('images/backgroundimage2.jpg')}}" alt="hintergrundbild" class="" style="height: 100%; width: 100%; object-fit: cover;">
       <div class="h-100 w-100" style="position: absolute; top: 5px; left: 5px;">
-        <h2 class="textsizeu3 text-white text-shadow hiddenonmobile"> Kontaktieren Sie unser kompetentes Team bei</h2>
-          <h2 class="mobileHeading textsizeu1  mt-2">Kontaktieren Sie unser kompetentes Team bei</h2>
+        <h3 class="textsizeu3 text-white text-shadow hiddenonmobile"> Kontaktieren Sie unser kompetentes Team bei</h3>
+          <h3 class="mobileHeading textsizeu1  mt-2">Kontaktieren Sie unser kompetentes Team bei</h3>
 
           <p class="picturetextmobile">
             * Auftragsspitzen <br>
@@ -39,20 +44,20 @@
             * Bedarf an Mitarbeitern mit speziellen Zulassungen <br>
           </p>
         <div class="" style="position: absolute; bottom: -5px;">
-          <p class="textsize1 text-white text-shadow">Unser Ziel ist Ihre Zufriedenheit!</p>
+          <p class="textsize1 text-white text-shadow">Ihre Zufriedenheit ist unser Beruf!</p>
         </div>
  
       </div>
     </div>
   </div>
-  <div class="row m-0 justify-content-center contentbreakw100">
+  <div class="row justify-content-center m-0">
     <h2 class="text-center textsizeu3 contentbreak">Unsere Dienstleistungen</h2>
     <div class="row contentbreak">
 
     </div>
-        <div class="col-sm-5 m-1">
+        <div class="col-sm-5 m-1 ">
           <a href="{{route('unikatSpeciality')}}">
-            <div class="row center_items">
+            <div class="row center_items m-3">
               <img src="{{asset('images/image_metallbranche.jpg')}}" alt="Arbeitsvermittlung, Jobs in der Metalbranche" class="img-fluid img-departments linkitem" style="">
             </div>
             <div class="row">
@@ -63,7 +68,7 @@
       </a>
       <div class="col-sm-5 ">
         <a href="{{route('unikatSpeciality')}}">
-          <div class="row">
+          <div class="row m-3">
             <img src="{{asset('images/image_lagerlogistik.jpg')}}" alt="Arbeitsvermittlung, Jobs Lagerlogistik" class="img-fluid img-departments linkitem">
           </div>
           <div class="row">
@@ -71,11 +76,11 @@
           </div>
         </a>
       </div>
-
   </div>
-    <div class="row m-0 ukColor1 text-white contentbreakw100 center_items">
-      <div class="col-sm-5 m-2 p-1 order-sm-last order-md-first">
-        <div class="row m-2 border-bottom" >
+  <p class="contentbreak"></p>
+    <div class="row m-0 ukColor1 text-white center_items">
+      <div class="col-sm-5 m-2 p-1 order-sm-last order-md-first contentbreakw100">
+        <div class="row m-2 border-bottom " >
           <h4 class="headline1">Zusätzliche Informationen</h4>
         </div>
         <div class="row m-2 justify-content-center ">
@@ -85,7 +90,7 @@
           <p>Email: info@unikat-deutschland.de</p>
         </div>
         <div class="row m-2 justify-content-center ">
-          <p>Social Media: <a class="fa fa-facebook" href="#"></a>  <a class="fa fa-instagram" href="#"></a></p>
+          <p>Social Media: <a class="fa fa-facebook" href="https://www.facebook.com/Unikat-110609097951924/"></a>  <a class="fa fa-instagram" href="https://www.instagram.com/unikat_gmbh"></a></p>
         </div>
         <div class="row m-2  justify-content-center ">
           <div class="col">
@@ -95,7 +100,6 @@
         </div>
       </div>
       <div class="col-sm-5 p-0 order-sm-first order-md-last">
-
         <div class="mapouter" style="height: 350px; width: 100%;padding: 5px;">
           <div class="gmap_canvas p-0 center_items">
             <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=Sonnenscheineck%2016,%2044287%20Dortmund&t=&z=13&ie=UTF8&iwloc=&output=embed" style="width: 90%;height: 350px;"></iframe><br>

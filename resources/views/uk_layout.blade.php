@@ -23,10 +23,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <!-- Bootstrap js -->
     <script  src="{{asset('css/bootstrap-5.0.1-dist/js/bootstrap.min.js')}}"></script>
-    <meta name="content" content="Die Unikat ist ein Unternehmen für Personaldienstleistungen und Vermittlung von Arbeitskräften, in den Bereichen der Lagerlogistik und Metallbranche, in Dortmund und Umgebung">
+    <meta name="description" content="Die Unikat ist ein Unternehmen für Personaldienstleistungen und Vermittlung von Arbeitskräften, in den Bereichen der Lagerlogistik und Metallbranche, in Dortmund und Umgebung">
     <meta name="keywords" content="Unikat, Personaldienstleistungen, Arbeitsvermittlung, Vermittlung von Arbeitskräften, Metallbranche, Lagerlogistik, Dortmund">
     <meta name="author" content="John Gelotti">
-    <title>Unikat, Personaldienstleitungen & Arbeitsvermittlung in Dormtnund</title>
+    @yield('title')
     <!-- Styles -->
     <style media="screen">
 
@@ -118,7 +118,7 @@
     </style>
     <body>
 
-      <div class="container-fluid p-0 bg-light" style="width: 100vw;">
+      <div class="container-fluid p-0 bg-light">
         <div class="row m-0 ukColor1" id='stickynavmob'>
           <div class="col-6 d-flex justify-content-center align-items-center">
             <div class="navbar-wrapper">
@@ -139,7 +139,7 @@
             <hr>
             <div class="w-100 d-flex p-1 linkitem">
               <a href="{{route('unikat')}}">
-                <span class="material-icons" style="font-size: 2.5em;">
+                <span class="material-icons">
                   home
                 </span>
 
@@ -152,7 +152,7 @@
                 <div class="dropdownrightactivate">
                   <p class="hoveritem">Unsere Leistungen</p>
                 </div>
-                <div class="dropdownright" style=" display: none;position: absolute; margin-left: 9em;">
+                <div class="dropdownright" style=" ">
                   <a href="{{route('ourWorkforce')}}">
                   <p class="hoveritem">
                       Unsere Fachkrafte
@@ -177,25 +177,25 @@
             </div>
           </div>
         </div>
-        <div class="row m-0 ukColor1 text-white textsizeu2 hiddenonmobile align-items-center" style="min-height: 20vh;max-height: 45vh;">
+        <div class="row ukColor1 m-0 text-white textsizeu2 hiddenonmobile align-items-center" style="min-height: 20vh;max-height: 45vh;">
                 <div class="col-1 offset-1 mb-1 center_items linkitem">
                   <a href="{{route('unikat')}}">
-                    <span class="material-icons" style="font-size: 2.5em;">
-                      home
+                    <span class="material-icons">
+                      <b class="f3">home</b>
                     </span>
 
                   </a>
                 </div>
                 <div class="col-2 center_items linkitem">
                   <a href="{{route('unikataboutus')}}">
-                    <p class="hoveritem">Über uns</p>
+                    <p class="hoveritem f2">Über uns</p>
                   </a>
 
                 </div>
-                <div class="col-2 center_items linkitem" style="position: relative;">
+                <div class="col-3 center_items linkitem" style="position: relative;">
                   <div class="" style="display: block; position: relative;">
                   <div class="dropdownactivate" id="dropdownactivate">
-                    <p class="hoveritem">Unsere Leistungen</p>
+                    <p class="hoveritem f2">Unsere Leistungen</p>
                   </div>
                   <div class="hoverdropdown ukColor1" id="">
                     <div class="dropdownitem linkitem">
@@ -216,11 +216,11 @@
                   </div>
                 </div>
 
-                <div class="col-2 center_items linkitem">
+                <div class="col-2 center_items linkitem f2">
                   <p class="hoveritem" onclick="toggleContactModal()">Kontakt</p>
 
                 </div>
-                <div class="col-3 offset-1 center_items linkitem">
+                <div class="col-2 offset-1 center_items linkitem">
                   <div class="d-flex h-100">
                     <a href="{{route('unikat')}}">
                       <img src="{{asset('images/unikat_logo_without_text_grey-removebg-preview.png')}}" alt="firmenlogo_unikat" class="unikat_logo">

@@ -23,8 +23,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <!-- Bootstrap js -->
     <script  src="{{asset('css/bootstrap-5.0.1-dist/js/bootstrap.min.js')}}"></script>
-    <meta name="description" content="Die Unikat ist ein Unternehmen für Personaldienstleistungen und Vermittlung von Arbeitskräften, in den Bereichen der Lagerlogistik und Metallbranche, in Dortmund und Umgebung">
-    <meta name="keywords" content="Unikat, Personaldienstleistungen, Arbeitsvermittlung, Vermittlung von Arbeitskräften, Metallbranche, Lagerlogistik, Dortmund">
+    <meta name="description" content="Die Unikat GmbH ist ein Unternehmen für Personaldienstleistungen und Vermittlung von Arbeitskräften, speziell der Lagerlogistik und Metallbranche. Wir stellen deutschlandweit ein">
+    <meta name="keywords" content="Unikat, Personaldienstleistungen, Arbeitsvermittlung, Vermittlung von Arbeitskräften, Metallbranche, Lagerlogistik, Dortmund, Stellenangebote">
     <meta name="author" content="John Gelotti">
     @yield('title')
     <!-- Styles -->

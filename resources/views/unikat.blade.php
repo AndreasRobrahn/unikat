@@ -58,7 +58,7 @@
         <div class="col-sm-5 m-1 ">
           <a href="{{route('unikatSpeciality')}}">
             <div class="row center_items m-3">
-              <img src="{{asset('images/image_metallbranche.jpg')}}" alt="Arbeitsvermittlung, Jobs in der Metalbranche" class="img-fluid img-departments linkitem" style="">
+              <img src="{{asset('images/image_metallbranche.jpg')}}" title="Jobs in der Mettalbranche" alt="Schweißen, Funken fliegen" class="img-fluid img-departments linkitem" style="">
             </div>
             <div class="row">
               <span class="text-dark textsizeu1 text-center">Metallbranche</span>
@@ -69,7 +69,7 @@
       <div class="col-sm-5 ">
         <a href="{{route('unikatSpeciality')}}">
           <div class="row m-3">
-            <img src="{{asset('images/image_lagerlogistik.jpg')}}" alt="Arbeitsvermittlung, Jobs Lagerlogistik" class="img-fluid img-departments linkitem">
+            <img src="{{asset('images/image_lagerlogistik.jpg')}}" title="Jobs in der Logistik" alt="eine große Lagerhalle" class="img-fluid img-departments linkitem">
           </div>
           <div class="row">
             <span class="text-dark textsizeu1 text-center">Lagerlogistik</span>
@@ -81,7 +81,7 @@
     <div class="row m-0 ukColor1 text-white center_items">
       <div class="col-sm-5 m-2 p-1 order-sm-last order-md-first contentbreakw100">
         <div class="row m-2 border-bottom " >
-          <h4 class="headline1">Zusätzliche Informationen</h4>
+          <h3 class="headline1"><strong>Zusätzliche Informationen</strong></h3>
         </div>
         <div class="row m-2 justify-content-center ">
           <p>Adresse: Sonnenscheineck 16, 44278 Dortmund</p>

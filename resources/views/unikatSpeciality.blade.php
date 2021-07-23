@@ -1,5 +1,9 @@
 @extends('uk_layout')
 
+@section('title')
+<title>Unikat, Komnpetenzen in der Arbeitsvermittlung</title>
+@endsection
+
 @section('content')
 
 <div class="row m-0 ">

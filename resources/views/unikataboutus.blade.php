@@ -1,5 +1,9 @@
 @extends('uk_layout')
 
+@section('title')
+<title>Unikat, Über uns Geschichte & Werte </title>
+@endsection
+
 @section('content')
 
 <div class="row m-0 ">

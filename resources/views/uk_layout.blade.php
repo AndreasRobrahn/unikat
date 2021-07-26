@@ -23,7 +23,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <!-- Bootstrap js -->
     <script  src="{{asset('css/bootstrap-5.0.1-dist/js/bootstrap.min.js')}}"></script>
-    <meta name="description" content="Die Unikat GmbH ist ein Unternehmen für Personaldienstleistungen und Vermittlung von Arbeitskräften, speziell der Lagerlogistik und Metallbranche. Wir stellen deutschlandweit ein">
+    @yield('description')
     <meta name="keywords" content="Unikat, Personaldienstleistungen, Arbeitsvermittlung, Vermittlung von Arbeitskräften, Metallbranche, Lagerlogistik, Dortmund, Stellenangebote">
     <meta name="author" content="John Gelotti">
     @yield('title')
@@ -135,81 +135,103 @@
           <div class="col-6 p-1 d-flex justify-content-center align-items-center ">
             <a href="{{route('unikat')}}"><img src="{{asset('images/unikat_logo_without_text_grey-removebg-preview.png')}}" alt="Teamlogo" class="unikat_logo" style=""></a>
           </div>
-          <div class="col-12 " id="sidemenu1" style="">
-            <hr>
-            <div class="w-100 d-flex p-1 linkitem">
+
+        <div class="m-0 center_items m-0" id="sidemenu1">
+          <div class="row center_items">
+          <div class="col-5 m-1 sameheight125"  style="">
+
+            <div class="w-100 h-100 d-flex p-1 linkitem ukColor-translucent center_items">
               <a href="{{route('unikat')}}">
-                <span class="material-icons">
-                  home
-                </span>
-
+                Über uns
               </a>
-
-            </div>
-            <hr>
-            <div class="w-100 d-flex linkitem" >
-              <div class="d-flex " >
-                <div class="dropdownrightactivate">
-                  <p class="hoveritem">Unsere Leistungen</p>
-                </div>
-                <div class="dropdownright" style=" ">
-                  <a href="{{route('ourWorkforce')}}">
-                  <p class="hoveritem">
-                      Unsere Fachkrafte
-                    </p>
-                  </a>
-                  <a href="{{route('joboffers')}}"> <p class="hoveritem" >Stellen- <br>angebote</p></a>
-                  <a href="{{route('unikatSpeciality')}}"><p class="hoveritem">Kompe- <br>tenzen</p></a>
-                </div>
               </div>
+            </div>
+            <!-- <hr> -->
+          <div class="col-5 m-1 sameheight125">
+              <div class="w-100 h-100 d-flex p-1 linkitem ukColor-translucent center_items" >
+                <a href="{{route('ourWorkforce')}}">
+                  <p class="hoveritem text-center">
+                      Unsere Fachkräfte
+                    </p>
+                </a>
+              </div>
+          </div>
+          <div class="col-5 m-1 sameheight125">
+              <div class="w-100 h-100 d-flex p-1 linkitem ukColor-translucent center_items" >
+                  <a href="{{route('joboffers')}}">
+                  <p class="hoveritem text-center">
+                    Stellen <br> angebote</p>
+                    </p>
+                </a>
+              </div>
+          </div>
+          <div class="col-5 m-1 sameheight125">
+              <div class="w-100 h-100 d-flex p-1 linkitem ukColor-translucent center_items" >
 
-            </div>
-            <hr>
-            <div class="w-100 d-flex linkitem">
-              <a href="{{route('unikataboutus')}}">
-                <p class="hoveritem">Über uns</p>
-              </a>
-            </div>
-            <hr>
-            <div class="w-100 d-flex linkitem">
-              <a href="#" onclick="toggleContactModal()">  <p class="hoveritem" >Kontakt</p></a>
+                  <a onclick="toggleContactModal()">
+                  <p class="hoveritem">
+                    Kontakt</p>
+                    </p>
+                </a>
+              </div>
+          </div>
+          <div class="col-5 m-1 sameheight125">
+              <div class="w-100 h-100 d-flex p-1 linkitem ukColor-translucent center_items" >
 
-            </div>
+                  <a href="{{route('unikatSpeciality')}}">
+                  <p class="hoveritem p-1">
+                    Kompetenzen</p>
+                    </p>
+                </a>
+              </div>
+          </div>
+          <div class="col-5 m-1 sameheight125">
+              <div class="w-100 h-100 d-flex p-1 linkitem ukColor-translucent center_items" >
+
+                <a href="{{route('unikataboutus')}}">
+                  <p class="hoveritem p-1">
+                    <span class="material-icons f5">
+                      home
+                    </span>
+                    </p>
+
+                </a>
+              </div>
           </div>
         </div>
-        <div class="row ukColor1 m-0 text-white textsizeu2 hiddenonmobile align-items-center" style="min-height: 20vh;max-height: 45vh;">
+      </div>
+      </div>
+        <div class="row ukColor1 m-0 text-white hiddenonmobile align-items-center" style="min-height: 20vh;max-height: 45vh;">
                 <div class="col-1 offset-1 mb-1 center_items linkitem">
                   <a href="{{route('unikat')}}">
                     <span class="material-icons">
                       <b class="f3">home</b>
                     </span>
-
                   </a>
                 </div>
                 <div class="col-2 center_items linkitem">
                   <a href="{{route('unikataboutus')}}">
                     <p class="hoveritem f2">Über uns</p>
                   </a>
-
                 </div>
                 <div class="col-3 center_items linkitem" style="position: relative;">
                   <div class="" style="display: block; position: relative;">
-                  <div class="dropdownactivate" id="dropdownactivate">
+                  <div class="dropdownactivate p-1" id="dropdownactivate">
                     <p class="hoveritem f2">Unsere Leistungen</p>
                   </div>
-                  <div class="hoverdropdown ukColor1" id="">
-                    <div class="dropdownitem linkitem">
+                  <div class="hoverdropdown  p-1" id="">
+                    <div class="dropdownitem linkitem ukColor-translucent center_items">
                       <a href="{{route('ourWorkforce')}}">
                         <p class="hoveritem">Unsere Fachkrafte</p>
                       </a>
                     </div>
-                    <hr>
-                    <div class="dropdownitem linkitem">
+                    <!-- <hr> -->
+                    <div class="dropdownitem linkitem p-1 ukColor-translucent center_items">
                       <a href="{{route('joboffers')}}"> <p class="hoveritem">Stellenangebote</p></a>
                     </div>
-                    <hr>
+                    <!-- <hr> -->
 
-                    <div class="dropdownitem linkitem">
+                    <div class="dropdownitem linkitem p-1 ukColor-translucent center_items">
                       <a href="{{route('unikatSpeciality')}}"><p class="hoveritem">Kompetenzen</p></a>
                     </div>
                     </div>
@@ -229,7 +251,7 @@
 
                 </div>
               </div>
-      <div class="container-fluid w-100 m-0 p-0" style="min-height: 72vh;">
+      <div class="container-fluid w-100 m-0 p-0 bg-1" style="min-height: 72vh;">
         @yield('content')
       </div>
 

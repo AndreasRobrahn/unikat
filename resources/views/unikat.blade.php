@@ -4,9 +4,14 @@
 <title>Unikat, Arbeitsvermittlung & Personaldienstleistungen in Dortmund</title>
 @endsection
 
+@section('description')
+
+<meta name="description" content="Die Unikat GmbH ist ein Unternehmen für Personaldienstleistungen und Vermittlung von Arbeitskräften, speziell der Lagerlogistik und Metallbranche. Wir stellen deutschlandweit ein">
+@endsection
+
 @section('content')
 
-<div class="row m-0 justify-content-center " style="">
+<div class="row m-0 justify-content-center" style="">
   <div class="col-sm-9 p-1 contentbreak">
     <h1 class="textsizeu3 p-2 hiddenonmobile">Herzlich Willkommen bei Unikat GmbH
 
@@ -23,9 +28,9 @@
   </div>
 
 </div>
-<div class="row m-0 justify-content-center ">
+<div class="row m-0 justify-content-center">
   <div class="col-sm-9 p-1 contentbreak">
-      <h3 class="p-2 textsizeu1">Social Media</h3>
+      <h3 class="p-2 textsizeu1">Social Media, treffen Sie uns auf den Sozialen Medien</h3>
     <p><a class="fa fa-facebook socmedbutton" href="https://www.facebook.com/Unikat-110609097951924/"></a>  <a class="fa fa-instagram socmedbutton" href="https://www.instagram.com/unikat_gmbh"></a></p>
   </div>
 </div>

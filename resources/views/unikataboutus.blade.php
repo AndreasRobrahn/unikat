@@ -6,7 +6,7 @@
 
 @section('content')
 
-<div class="row m-0 ">
+<div class="row m-0 bg-2">
   <div class="col-md">
     <div class="row contentbreakw100">
         <h1 class="textsizeu3 m-2">Unikat Personaldienstleistungen</h1>

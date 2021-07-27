@@ -251,7 +251,7 @@
 
                 </div>
               </div>
-      <div class="container-fluid w-100 m-0 p-0 bg-1" style="min-height: 72vh;">
+      <div class="container-fluid w-100 m-0 p-0" style="min-height: 72vh;">
         @yield('content')
       </div>
 

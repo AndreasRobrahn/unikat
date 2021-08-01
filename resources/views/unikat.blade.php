@@ -13,15 +13,15 @@
 
 <div class="row m-0 justify-content-center " style="">
   <div class="col-sm-9 contentbreakw100">
-      <h1 class="textsizeu3 mt-4 ">Herzlich Willkommen bei der Unikat GmbH</h1>
-
-      <h2 class="textsizeu1 mt-4">Arbeitsvermittlung & Personaldienstleistungen</h2>
-
+    <h1 class="textsizeu3 mt-4 ">Herzlich Willkommen bei der Unikat GmbH</h1>
     <p class="textsizeu2 m-2" style="">
-      Die Unikat GmbH ist auf die Arbeitnehmerüberlassung von Fachkräften spezialisiert. Suchen Sie nach qualifizierten Personal aus der Metallbranche oder im Bereich der Lagerlogistik?
-      Von unserem Firmensitz in Dortmund helfen wir Ihnen in der Arbeitsvermittlung dem Abschluss Ihrer Projekt.  Profitieren sie von unseren längjahrigen Erfahrungen und Kontakten im Bereich der Personaldienstleistungen.
-      Wir sehen uns sowohl als verlässlichen Partner als auch als nachhaltiger Arbeitgeber. Denn wir wissen, dass wir nur durch unsere Mitarbeiter unseren Erfolg erreichen können.
+
+      Wir haben uns auf die Arbeitnehmerüberlassung von Fachkräften aus der Lagerlogistik und der Metallbranche,
+      insbesondere im Bereich Schweiß- und Maschinentechnik sowie Anlagenbau, spezialisiert. So vermitteln wir Ihnen bundesweit
+      genau das Personal, welches Sie benötigen.
     </p>
+    <h2 class="p-2 textsizeu1">Unikat Ihre Brücke zum Erfolg </h3>
+    <p class="textsizeu2 m-2">Die Familiäre Gemeinschaft und übertarifliche Bezahlung ist unser größtes Kapital und die Basis für eine erfolgreiche Zukunft.</p>
   </div>
 
 </div>

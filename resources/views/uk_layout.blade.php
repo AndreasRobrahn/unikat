@@ -159,7 +159,6 @@
               </div>
               <div class="col-5 m-1 sameheight125">
                   <div class="w-100 h-100 d-flex p-1 linkitem ukColor-translucent center_items" >
-
                       <a onclick="toggleContactModal()" class="text-white">
                       <p class="hoveritem">
                         Kontakt</p>
@@ -169,7 +168,6 @@
               </div>
               <div class="col-5 m-1 sameheight125">
                   <div class="w-100 h-100 d-flex p-1 linkitem ukColor-translucent center_items" >
-
                       <a href="{{route('unikatSpeciality')}}" class="text-white">
                       <p class="hoveritem p-1">
                         Kompetenzen</p>
@@ -200,7 +198,7 @@
             </div>
             <div class="test" style="position:absolute; height: 250px; width: 250px;border-radius: 50%;background-color: #614e3f; display: flex; justify-content: center; align-items: center;">
             <div class="" style="position:relative; height: 80%; width: 80%;border-radius: 50%; border: 4px solid white;display:flex; align-items: center;">
-              <a href="{{route('unikat')}}"><img src="{{asset('images/unikat_logo_without_text_grey-removebg-preview.png')}}" alt="Teamlogo" class="unikat_logo" style=""></a>
+              <a href="{{route('unikat')}}"><img src="{{asset('images/unikat_logo_grey-removebg-preview.png')}}" alt="Teamlogo" class="unikat_logo" style=""></a>
             </div>
               </div>
             </div>
@@ -231,7 +229,7 @@
                     </div>
                     <!-- <hr> -->
                     <div class="dropdownitem linkitem p-1 ukColor-translucent center_items">
-                      <a href="{{route('joboffers')}}" class="text-white"> 
+                      <a href="{{route('joboffers')}}" class="text-white">
                         <p class="hoveritem">Stellenangebote</p>
                       </a>
                     </div>

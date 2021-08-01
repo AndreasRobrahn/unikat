@@ -1,7 +1,13 @@
 @extends('uk_layout')
 
-@section('content')
+@section('title')
+<title>Unikat, wir vermitteln dass Personal dass die brauchen</title>
+@endsection
+@section('description')
+<meta name="description" content="Unikat Personalvermittlung, wir errechnen den Bedarf und sc">
+@endsection
 
+@section('content')
 <div class="row m-0 center_items">
   <div class="col-md-8">
     <div class="row contentbreakw100">
@@ -18,11 +24,8 @@
         <li><p class="textsizeu1">Lagermitarbeiter</p></li>
         <li><p class="textsizeu1">Schlosser</p></li>
         <li><p class="textsizeu1">Andere Berufsgruppen auf Anfrage</p></li>
-
       </ul>
-
     </div>
-
     <div class="row m-0">
       <p class="textsizeu2">Unser Personal hat alle notwendigen <b>Schulungen</b>, <b>Genehmigungen</b> und <b>Zertifikate</b></p>
     </div>

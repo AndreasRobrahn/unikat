@@ -4,6 +4,10 @@
 <title>Unikat, Über uns Geschichte & Werte </title>
 @endsection
 
+@section('description')
+
+<meta name="description" content="Wir über uns. Machen sie sich ihr eigenes Bild. Eine Beschreibung des Unternehmens.">
+@endsection
 @section('content')
 
 <div class="row m-0">

@@ -3,20 +3,31 @@
 @section('title')
 <title>Unikat GmbH, wir suchen Sie! Stellenangebote und mehr</title>
 @endsection
+@section('description')
+<meta name="description" content="Die Unikat GmbH stellt vor welche Berufsgruppen grade besonders gute Chancen auf ein Jobangebot haben. Übertariflich bezahlt und abwechslungsreich">
+@endsection
 
 @section('content')
 
-<div class="row m-0 ">
-  <div class="col">
+<div class="row m-0 center_items">
+  <div class="col-md-8">
     <div class="row contentbreakw100">
-        <h1 class="textsizeu3 m-2">Stellenangebote</h1>
+      <img src="{{asset('images/worker.png')}}" alt="" class="joboffersimg">
+      <h2 class="textsizeu3 m-2">FÜR BEWERBER</h2>
+    </div>
+    <div class="row mt-4 m-0">
+      <p>
+        Bewerben Sie sich jetzt bei Unikat und profitieren Sie von interessanten Arbeitgebern, attraktiven Tätigkeiten und den Vorteilen der familiären Atmosphäre.</p>
+    </div>
+    <div class="row mt-4">
+        <img src="{{asset('images/resume.png')}}" alt="" class="joboffersimg">
+        <h2 class="textsizeu3 m-2">STELLENANGEBOTE</h1>
     </div>
     <div class="row m-0">
-      <p class="textsizeu2">Du bist auf der Suche nach einem neuen Job? - Dann bist Du bei UNIKAT GmbH genau richtig. Wir suchen Lagermitarbeiter und Staplerfahrer (m/w/d) in NRW. Bewerbe Dich jetzt und sichere dir deinen neuen Job.
-      <br>Hier findest Du alle wichtigen Informationen:</p>
+      <p class="textsizeu2">Sie sind auf der Suche nach einem ansprechenden Job? Werfen Sie einen Blick in unsere aktuellen Stellenangebote und lassen Sie sich von der Vielfalt an beruflichen Möglichkeiten überzeugen.</p>
     </div>
     <div class="row">
-      <h2 class="textsize2u m-2"><b>Lagerhelfer (m/w/d) ab sofort in Vollzeit</b></h2>
+      <h3 class="textsize2u m-2"><b>Lagerhelfer (m/w/d) ab sofort in Vollzeit</b></h3>
     </div>
 
   <div class="row mt-2">
@@ -45,7 +56,7 @@
 
   </div>
   <div class="row mt-2">
-    <h2 class="textsize2u m-2">Unser Angebot</h2>
+    <span class="textsize2u m-2">Unser Angebot</span>
     <div class="ml-2">
       <ul class="textsize2u">
         <li>Langfristige Einsatzmöglichkeit als Lagerhelfer bei einem namenhaften Logistikbetrieb</li>
@@ -53,12 +64,13 @@
         <li>Ein angenehmes und freundliches Betriebsklima</li>
         <li>Übertarifliche Bezahlung </li>
       </ul>
+
     </div>
 
   </div>
   <hr style="border: 2px solid black;">
   <div class="row ">
-    <h2 class="textsize2u m-2"><b>Schlosser/Metallbauer (m/w/d) in Vollzeit</b></h2>
+    <h3 class="textsize2u m-2"><b>Schlosser/Metallbauer (m/w/d) in Vollzeit</b></h3>
   </div>
   <div class="row mt-2">
     <h2 class="textsize2u m-2">Ihre Aufgaben</h2>
@@ -108,6 +120,17 @@
     <p class="textsize1u">Nutzen sie unser <b> <a id="contactformular" style="cursor:pointer;">Kontaktformular</a> </b></p>
     <p class="textsize1u">Oder schreibe uns einfach eine Email an <a href="mailto:info@unikat-deutschland.de" style="color:black;">info@unikat-deutschland.de</a> </p>
   </div>
+    <hr style="border: 2px solid black;">
+
+
+<div class="col-md-12 m-3 ">
+  <div class="">
+    <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+  </div>
+
+</div>
+<hr style="border: 2px solid black;">
+</div>
 </div>
 @endsection
 

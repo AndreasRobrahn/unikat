@@ -2,8 +2,8 @@
 
 @section('content')
 
-<div class="row m-0 ">
-  <div class="col">
+<div class="row m-0 center_items">
+  <div class="col-md-8">
     <div class="row contentbreakw100">
         <h1 class="textsizeu3 m-2">Unser Personal</h1>
     </div>

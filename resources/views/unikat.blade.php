@@ -21,7 +21,7 @@
       genau das Personal, welches Sie benötigen.
     </p>
     <h2 class="p-2 textsizeu1">Unikat Ihre Brücke zum Erfolg </h3>
-    <p class="textsizeu2 m-2">Die Familiäre Gemeinschaft und übertarifliche Bezahlung ist unser größtes Kapital und die Basis für eine erfolgreiche Zukunft.</p>
+    <p class="textsizeu2 m-2">Die familiäre Gemeinschaft und übertarifliche Bezahlung ist unser größtes Kapital und die Basis für eine erfolgreiche Zukunft.</p>
   </div>
 
 </div>

@@ -56,7 +56,7 @@
 
   </div>
   <div class="row mt-2">
-    <span class="textsize2u m-2">Unser Angebot</span>
+    <h3 class="textsize2u m-2">Unser Angebot</h3>
     <div class="ml-2">
       <ul class="textsize2u">
         <li>Langfristige Einsatzmöglichkeit als Lagerhelfer bei einem namenhaften Logistikbetrieb</li>
@@ -100,7 +100,7 @@
 
   </div>
   <div class="row mt-2">
-    <h2 class="textsize2u m-2">Unser Angebot</h2>
+    <h3 class="textsize2u m-2">Unser Angebot</h3>
     <div class="ml-2">
       <ul class="textsize2u">
         <li>Langfristige Einsatzmöglichkeit als Schlosser/Metallbauer</li>

@@ -1,7 +1,12 @@
 @extends('uk_layout')
 
 @section('title')
-<title>Unikat GmbH, Ihre Daten sind sicher!</title>
+<title>Unikat GmbH, auf die Sicherheit Ihrer Daten legen wir sehr großen Wert</title>
+@endsection
+
+@section('description')
+
+<meta name="description" content="Die Unikat GmbH legt sehr hohen Wert auf Datenschutz. Grade in der Arbeitsvermittlung hat man es mit sehr sensiblen Daten zu tun. Deswegen werden keine Daten gespeichert es sei denn es ist absolut notwendig">
 @endsection
 
 @section('content')

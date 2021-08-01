@@ -58,7 +58,7 @@
 
     </div>
         <div class="col-sm-5 m-1 ">
-          <a href="{{route('unikatSpeciality')}}">
+          <a href="{{route('unikatjoboffers')}}">
             <div class="row center_items m-3">
               <img src="{{asset('images/image_metallbranche.jpg')}}" title="Jobs in der Mettalbranche" alt="Schweißen, Funken fliegen" class="img-fluid img-departments linkitem" style="">
             </div>
@@ -69,7 +69,7 @@
         </div>
       </a>
       <div class="col-sm-5 ">
-        <a href="{{route('unikatSpeciality')}}">
+        <a href="{{route('unikatjoboffers')}}">
           <div class="row m-3">
             <img src="{{asset('images/image_lagerlogistik.jpg')}}" title="Jobs in der Logistik" alt="eine große Lagerhalle" class="img-fluid img-departments linkitem">
           </div>

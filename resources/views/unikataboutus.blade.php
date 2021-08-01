@@ -6,7 +6,7 @@
 
 @section('description')
 
-<meta name="description" content="Wir über uns. Machen sie sich ihr eigenes Bild. Eine Beschreibung des Unternehmens.">
+<meta name="description" content="Wir über uns. Machen sie sich ihr eigenes Bild. Eine Beschreibung des Unternehmens. Arbeitsvermittlung & Personaldienstleistungen sind unser Metier. Wir wollen Unternehmen und Fachkraft zusammenbringen.">
 @endsection
 @section('content')
 

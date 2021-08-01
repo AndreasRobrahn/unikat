@@ -4,7 +4,7 @@
 <title>Unikat, wir vermitteln dass Personal dass die brauchen</title>
 @endsection
 @section('description')
-<meta name="description" content="Unikat Personalvermittlung, wir errechnen den Bedarf und sc">
+<meta name="description" content="Unikat Arbeitsvermittlung, wir errechnen Ihren Bedarf und vermitteln Ihnen genau das Personal, dass Sie benötigen">
 @endsection
 
 @section('content')

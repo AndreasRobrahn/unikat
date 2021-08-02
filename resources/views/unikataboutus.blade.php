@@ -5,24 +5,29 @@
 @endsection
 
 @section('description')
-
-<meta name="description" content="Wir über uns. Machen sie sich ihr eigenes Bild. Eine Beschreibung des Unternehmens. Arbeitsvermittlung & Personaldienstleistungen sind unser Metier. Wir wollen Unternehmen und Fachkraft zusammenbringen.">
+  <meta name="description" content="Wir über uns. Machen sie sich ihr eigenes Bild. Eine Beschreibung des Unternehmens. Arbeitsvermittlung & Personaldienstleistungen sind unser Metier. Wir wollen Unternehmen und Fachkraft zusammenbringen.">
 @endsection
+
 @section('content')
 
 <div class="row m-0">
   <div class="col-md">
     <div class="row contentbreakw100">
-        <h1 class="textsizeu3 m-2">Unikat Personaldienstleistungen</h1>
+        <h1 class="textsizeu3 m-2">Unikat Arbeitsvermittlung</h1>
         <h2 class="textsizeu1 m-2">Über uns</h2>
     </div>
     <div class="row m-0">
         <p class="textsizeu2 ">
-          Als verlässlicher, mittelständiger Personaldienstleister stellen wir Ihnen eine umfangreiche Auswahl an Services der Arbeitsvermittlung zur Verfügung. Mithilfe unserer erfahrenen und geschulten Mitarbeiter/-innen haben wir bereits mehrere Projekte erfolgreich abgeschlossen.
-          Alle Mitarbeiter/-innen der Unikat Deutschland GmbH entsprechen den höchsten Ansprüchen an Qualität, Zuverlässigkeit und Kundenorientierung. Wenn sie gutes Personal suchen helfen wir Ihnen weiter!</p>
-          <p>
-            Besonders in der Vermittlung von Arbeitskräften in der Metallbranche und der Lagerlogistik sehen wir uns als ersten Ansprechpartner.
+          Das Unternehmen Unikat GmbH kann auf eine Erfahrung zurückblicken, die wir gern mit Ihnen teilen möchten.
+          Ganz gleich, ob Sie als Auftraggeber auf der Suche nach professionellen Dienstleistern sind oder sich als Bewerber
+          neuen Herausforderungen stellen möchten. Wir wünschen uns, dass Sie zufrieden sind. Daher bieten wir Ihnen die
+          Möglichkeit, sich vorab umfassend über unsere Dienstleistungen zu informieren.
           </p>
+          <p>Unser Ziel ist es neben der persönlichen und individuellen Beratung und Betreuung von arbeitssuchenden Menschen, eine zeitnahe Vermittlung und eine optimale Vorbereitung auf den künftigen Arbeitsplatz zu gewährleisten.
+          Wir legen Wert auf hohe Qualitätsstandards bei der Vermittlung von Arbeitssuchenden.
+          Ein Service, auf den Sie vertrauen können.
+          Sprechen Sie uns an, wir vermitteln Sie in Arbeit!
+        </p>
     </div>
 
   </div>

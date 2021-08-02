@@ -5,8 +5,7 @@
 @endsection
 
 @section('description')
-
-<meta name="description" content="Die Unikat GmbH ist ein Unternehmen für Personaldienstleistungen und Vermittlung von Arbeitskräften, speziell der Lagerlogistik und Metallbranche. Wir stellen deutschlandweit ein">
+<meta name="description" content="Die Unikat GmbH ist ein Unternehmen für Personaldienstleistungen und Vermittlung von Arbeitskräften, speziell der Lagerlogistik und Metallbranche.">
 @endsection
 
 @section('content')
@@ -83,9 +82,33 @@
     <div class="row m-0 center_items">
       <div class="col-sm-5 m-2 p-1 order-sm-last order-md-first contentbreakw100">
         <div class="row m-2 border-bottom " >
-          <h3 class="headline1"><strong>Zusätzliche Informationen</strong></h3>
+        <h3 class="headline1"><strong>Zusätzliche Informationen</strong></h3>
         </div>
         <div class="row m-2 justify-content-center ">
+          <table class="table">
+            <tr>
+              <td>Telefon:</td>
+              <td>+ 49 (0)231/18730286</td>
+            </tr>
+            <tr>
+              <td>Mobil:</td>
+              <td>+49 (0)172/4303133</td>
+            </tr>
+            <tr>
+              <td>Adresse:</td>
+              <td>Sonnenscheineck 16, 44278 Dortmund</td>
+            </tr>
+            <tr>
+              <td>Email:</td>
+              <td>info@unikat-deutschland.de</td>
+            </tr>
+            <tr>
+              <td>Webseite:</td>
+              <td>www.unikat-deutschland.de</td>
+            </tr>
+          </table>
+        </div>
+        <!-- <div class="row m-2 justify-content-center ">
           <p>Adresse: Sonnenscheineck 16, 44278 Dortmund</p>
         </div>
         <div class="row m-2 justify-content-center ">
@@ -93,7 +116,7 @@
         </div>
         <div class="row m-2 justify-content-center ">
           <p>Social Media: <a class="fa fa-facebook facebookcolor text-white" href="https://www.facebook.com/Unikat-110609097951924/"></a>  <a class="fa fa-instagram instacolor text-white" href="https://www.instagram.com/unikat_gmbh"></a></p>
-        </div>
+        </div> -->
         <div class="row m-2  justify-content-center ">
           <div class="col">
             <button type="button" name="button" class="btn btn-block border-rounded border border-white bg-dark-outline" onclick="showContactModal()">Kontaktformular aufrufen</button>

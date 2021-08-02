@@ -1,10 +1,11 @@
 @extends('uk_layout')
 
 @section('title')
-<title>Unikat, Komnpetenzen in der Arbeitsvermittlung</title>
+  <title>Unikat, Komnpetenzen in der Arbeitsvermittlung</title>
 @endsection
+
 @section('desciption')
-<meta name="description" content="Die Unikat GmbH hat sich auf die Arbeitnehmerüberlassung spezialisiert. Profitieren Sie von unseren Dienstleistungen.">
+  <meta name="description" content="Die Unikat GmbH hat sich auf die Arbeitnehmerüberlassung spezialisiert. Profitieren Sie von unseren Dienstleistungen.">
 @endsection
 
 

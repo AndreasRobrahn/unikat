@@ -4,7 +4,7 @@
   <title>Unikat, Komnpetenzen in der Arbeitsvermittlung</title>
 @endsection
 
-@section('desciption')
+@section('description')
   <meta name="description" content="Die Unikat GmbH hat sich auf die Arbeitnehmerüberlassung spezialisiert. Profitieren Sie von unseren Dienstleistungen.">
 @endsection
 

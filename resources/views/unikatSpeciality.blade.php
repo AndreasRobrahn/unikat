@@ -16,7 +16,7 @@
     <div class="row">
       <div class="col-md">
         <div class="row contentbreakw100">
-            <h1 class="textsizeu3 m-2">Unikat Personaldienstleistungen</h1>
+            <h1 class="textsizeu3 m-2">Unikat Arbeitsvermittlung</h1>
             <h2 class="textsizeu1 m-2">Unikat das bedeutet Arbeitsplätze mit Perspektive schaffen </h2>
         </div>
         <div class="row m-0">

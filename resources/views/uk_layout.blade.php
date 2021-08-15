@@ -139,15 +139,7 @@
                     </div>
                   </div>
                   <!-- <hr> -->
-                  <div class="col-5 m-1 sameheight125">
-                      <div class="w-100 h-100 d-flex p-1 linkitem ukColor-translucent center_items" >
-                        <a href="{{route('ourWorkforce')}}" class="text-white">
-                          <p class="hoveritem text-center ">
-                              Unsere Fachkräfte
-                            </p>
-                        </a>
-                      </div>
-                  </div>
+
               <div class="col-5 m-1 sameheight125">
                   <div class="w-100 h-100 d-flex p-1 linkitem ukColor-translucent center_items" >
                       <a href="{{route('joboffers')}}" class="text-white">
@@ -222,11 +214,7 @@
                     <p class="hoveritem f2">Unsere Leistungen</p>
                   </div>
                   <div class="hoverdropdown  p-1" id="">
-                    <div class="dropdownitem linkitem ukColor-translucent center_items">
-                      <a href="{{route('ourWorkforce')}}" class="text-white">
-                        <p class="hoveritem">Unsere Fachkrafte</p>
-                      </a>
-                    </div>
+
                     <!-- <hr> -->
                     <div class="dropdownitem linkitem p-1 ukColor-translucent center_items">
                       <a href="{{route('joboffers')}}" class="text-white">
@@ -254,7 +242,7 @@
 
       <div class="row mt-2 justify-content-center">
         <div class="col-6 center_items p-0">
-          <a href="#">Impressum</a>
+          <a href="{{route('impressum')}}">Impressum</a>
         </div>
         <div class="col-6 center_items p-0">
           <a href="{{route('datasecurity')}}">Datenschutz</a>

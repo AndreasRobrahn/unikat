@@ -33,4 +33,7 @@ Route::get('/joboffers', function(){
 Route::get('/personal', function(){
   return view('ourWorkforce');
 })->name('ourWorkforce');
+Route::get('/impressum', function(){
+  return view('impressum');
+})->name('impressum');
 Route::get('/cookiesAccept', 'App\Http\Controllers\NotificationsController@setCookies');

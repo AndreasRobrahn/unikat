@@ -13,14 +13,14 @@
 <div class="row m-0 justify-content-center " style="">
   <div class="col-sm-9 contentbreakw100">
     <h1 class="textsizeu3 mt-4 ">Herzlich Willkommen bei der Unikat GmbH</h1>
-    <p class="textsizeu2 m-2" style="">
+    <p class="textsizeu2 contentbreakw100 p-2" style="">
 
       Wir haben uns auf die Arbeitnehmerüberlassung von Fachkräften aus der Lagerlogistik und der Metallbranche,
       insbesondere im Bereich Schweiß- und Maschinentechnik sowie Anlagenbau, spezialisiert. So vermitteln wir Ihnen bundesweit
       genau das Personal, welches Sie benötigen.
     </p>
-    <h2 class="p-2 textsizeu1">Unikat Ihre Brücke zum Erfolg </h3>
-    <p class="textsizeu2 m-2">Die familiäre Gemeinschaft und übertarifliche Bezahlung ist unser größtes Kapital und die Basis für eine erfolgreiche Zukunft.</p>
+    <h2 class="textsizeu1 contentbreakw100">Unikat Ihre Brücke zum Erfolg </h3>
+    <p class="textsizeu2 p-2">Die familiäre Gemeinschaft und übertarifliche Bezahlung ist unser größtes Kapital und die Basis für eine erfolgreiche Zukunft.</p>
   </div>
 
 </div>
@@ -96,7 +96,7 @@
             </tr>
             <tr>
               <td>Adresse:</td>
-              <td>Sonnenscheineck 16, 44278 Dortmund</td>
+              <td>Sonnenscheineck 16, 44287 Dortmund</td>
             </tr>
             <tr>
               <td>Email:</td>
